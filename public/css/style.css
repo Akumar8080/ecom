@@ -100,3 +100,13 @@ display: inline;
     padding:8px; 
     color:#ccc;
   }
+  a.signup-btn {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    padding: 11px;
+  }
+  .logout-btn button {
+    padding: 10px 20px;
+}

@@ -1,9 +1,11 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-   <button type="button" id="logout" class="btn btn-info btn-sm right">
-   <span class="glyphicon glyphicon-log-out"></span> Log out
-   </button>
+    <div class="d-flex justify-content-end mb-3 logout-btn">
+        <button type="button" id="logout" class="btn btn-info btn-sm right">
+        <span class="glyphicon glyphicon-log-out"></span> Log out
+        </button>
+    </div>
    <div class="form-group pull-right">
       <input type="text" id="product_search" class="search form-control" placeholder="What you looking for?">
    </div>

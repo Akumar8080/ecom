@@ -1,10 +1,12 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-   <button type="button" id="back" onClick="history.go(-1)" class="btn btn-info btn-sm right">
-   <span class="glyphicon glyphicon-log-out"></span> Back
-   </button>
-   <span class="counter pull-right"></span>
+    <div class="logout-btn mb-3">
+        <button type="button" id="back" onClick="history.go(-1)" class="btn btn-info btn-sm right">
+            <span class="glyphicon glyphicon-log-out"></span> Back
+        </button>
+    </div>
+        <span class="counter pull-right"></span>
    <table class="table table-hover table-bordered results">
       <thead>
          <tr>

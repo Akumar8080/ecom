@@ -8,7 +8,7 @@
       <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email"></div>
       <div class="form-group"><input class="form-control" type="password" name="password" placeholder="Password"></div>
       <div class="form-group"><button class="btn btn-primary btn-block" type="submit">SignUp</button></div>
-      <a href="{{route('/')}}" class="signup">Login</a>
+      <a href="{{route('/')}}" class="signup btn signup-btn">Login</a>
    </form>
 </div>
 @endsection
